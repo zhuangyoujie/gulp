@@ -1,0 +1,230 @@
+body {
+    margin:0;
+    padding:0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.address {
+    margin: 0 auto;
+    background-color: #DF1E3D;
+
+    height:6.67rem;
+}
+
+.addTitle p {
+    font-size: .18rem;
+    padding: 0.1rem 0;
+    color: #fff;
+    text-align: center;
+}
+
+
+.formTitle {
+    font-size: .14rem;
+    text-align: center;
+    padding: 12px 0;
+    color: #626262;
+    border-bottom: 1px solid #DEDEDE;
+    background-color: #F0F0F0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.formWrap {
+    background-color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+}
+
+.formCont {
+    font-size: .138rem;
+    text-align: left;
+}
+
+.formCont input, textarea {
+    font-size: .138rem;
+    color: #bbb;
+    outline: none;
+}
+
+.formCont span {
+    display: inline-block;
+    width: 18%;
+    text-align: right;
+
+}
+
+.formCont .formName {
+    padding: 11px 0;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.formCont .formName input {
+
+    display: inline-block;
+    margin-left: 5%;
+    border: none;
+
+}
+
+.formCont .formPhone {
+    padding: 11px 0;
+    position: relative;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.formCont .formPhone input {
+    display: inline-block;
+    margin-left: 5%;
+    border: none;
+
+}
+
+.formCont .formId {
+    padding: 11px 0;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.formCont .formId input {
+    display: inline-block;
+    margin-left: 5%;
+    border: none;
+
+
+}
+
+.formCont .formAddr {
+    padding: 6px 0;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.errorMsg {
+    position: absolute;
+    display: none;
+    top: 30px;
+    left: 50%;
+    transform: translate(-30%);
+}
+
+.errorMsg img {
+    width: 60%;
+}
+
+.formAddr textarea {
+    display: inline-block;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    margin-left: 4.5%;
+    width: 60%;
+    margin-top: 14px;
+    vertical-align: middle;
+    border: 0px;
+    resize: none;
+}
+
+.button {
+    margin: 11px auto;
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    background-color: #FF8901;
+    border-radius: 4px;
+}
+
+.button p {
+    font-size: .18rem;
+    color: #fff;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.addFooter {
+    margin-top: 17px;
+    color: #fff;
+}
+
+.addFooter .footTitle {
+    text-align: center;
+    font-size: .18rem;
+}
+
+.addFooter .prizeRule {
+    background-color: #CA0928;
+    font-size: .12rem;
+    margin:.12rem .16rem 0 .12rem;
+    padding: .12rem .12rem;
+    line-height: .19rem;
+
+}
+
+.addFooter .prizeRule p {
+    text-align: left;
+    padding-left: .12rem;
+}
+
+.addFooter .prizeRule p:first-letter {
+    margin-left: -.18rem;
+}
+
+.alertOverlay {
+    display: none;
+    font-size: .16rem;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.alertMsg {
+    border-radius: 12px;
+    position: fixed;
+    width: 72%;
+    left: .515rem;
+    top:2rem;
+    z-index: 1000;
+    border: 1px solid #fff;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, .3);
+    background: #fff
+}
+
+.alertContent {
+    justify-content: center;
+    padding: 29px;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.alertButtons {
+    color: #de1e3c;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 6px;
+    border-top: 1px solid #e4e8f1;
+    text-align: center;
+    box-shadow: 0 1px 0 #fff inset;
+    background: #fff;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none
+}
+
+.alertButtons button {
+    color: #de1e3c;
+    padding: 5px 12px;
+    margin: 0 2px;
+    border: 1px solid #de1e3c;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: .14rem;
+    outline: 0;
+    -webkit-appearance: none
+}
